@@ -1,0 +1,117 @@
+/* This is my great CSS */
+
+
+
+*{box-sizing: border-box;}
+
+html{background-color: lightgray;}
+
+.header {
+    margin: auto;
+    position: relative;
+    width: 850px;
+    height: 300px;
+    top: 50px;
+    left: 60px;
+   
+}
+.header-bg{
+    height: 280px;
+    background-color:#3b5998;
+    border: .5px solid lightgray;
+    position: relative;
+}
+body{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.upper-button {
+    position: relative;
+    font-family: cursive;
+    float: right;
+    font-size: 16px;
+    color: white;
+    padding-right: 15px;
+    margin-top: 45px;
+}
+
+.profile-photo{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #3b5998;
+    top: 110px;
+    left: 20px;
+    position: relative;
+    border: 1px solid black;
+    z-index: 1;
+}
+.profile-heading{
+    top: 190px;
+    left: 245px;
+    position: absolute;
+}
+h1{
+    font-size: 24px;
+    font-family: cursive;
+    font-weight: bold;    text-transform: uppercase;
+    color: cornsilk;
+    }  
+h2{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: cursive;
+    text-transform: uppercase;
+    color: cornsilk;
+    }
+.profile-heading,.upper-button{
+    display: inline;
+
+}
+.lower-buttons{
+    background-color: white;
+    height: 40px;
+    top: 33px;
+    position: relative;
+    left: 310px;
+    margin-right: 500px;
+    
+
+}
+.lower-buttons li{
+    list-style-type:none;
+    display: inline;
+    position: relative;
+    padding: 10px;
+    font-size: 15px;
+    top: 10px;
+    left: 180px;
+    border-left: 1px dotted gray;
+
+}
+.lower-buttons li:first-child{
+    border: none;
+
+}
+.column-left{
+    width: 320px;
+    position: absolute;
+    top: 400px;
+    left: 318px;
+    border: 1px solid lightgray;
+    background-color: white;
+    margin: auto;
+}
+.column-right{
+    width: 512px;
+    position: absolute;
+    top: 400px;
+    left: 655px;
+    border: 1 px solid lightgray;
+    background-color: white;
+    margin: auto;
+}
+h3{
+    text-align: center;
+    }
