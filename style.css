@@ -7,13 +7,11 @@
 html{background-color: lightgray;}
 
 .header {
-    margin: auto;
+    margin: 0 auto;
     position: relative;
     width: 850px;
     height: 300px;
-    top: 50px;
-    left: 60px;
-   
+       
 }
 .header-bg{
     height: 280px;
@@ -69,13 +67,16 @@ h2{
     display: inline;
 
 }
-.lower-buttons{
+nav {
+    margin: 0 auto;
+    width: 850px;
     background-color: white;
     height: 40px;
-    top: 33px;
     position: relative;
+}
+.lower-buttons{
     left: 310px;
-    margin-right: 500px;
+    /* margin-right: 500px; */
     
 
 }
@@ -94,23 +95,29 @@ h2{
     border: none;
 
 }
+.column-container{
+    width: 850px;
+    margin: 0 auto;
+    
+}
 .column-left{
-    width: 320px;
-    position: absolute;
-    top: 400px;
-    left: 318px;
-    border: 1px solid lightgray;
+    display: inline-block;
+    width: 328px;
+    position: relative;
+    top: 0px;
+     border: 1px solid lightgray;
     background-color: white;
-    margin: auto;
+    
 }
 .column-right{
+    display: inline-block;
     width: 512px;
-    position: absolute;
-    top: 400px;
-    left: 655px;
+    position: relative;
+    top: 0px;
+    left: 8px;    
     border: 1 px solid lightgray;
     background-color: white;
-    margin: auto;
+    
 }
 h3{
     text-align: center;
